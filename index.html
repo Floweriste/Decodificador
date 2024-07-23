@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma ferramenta para encriptar e desencriptar textos.">
+    <title>Decodificador</title>
+    <link rel="icon" href="./assets/cadeado.png">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <body>
+        <header class="cabecalho"> 
+            <nav class="cabecalho__logo">
+                <ul class="links">
+                    <li class="nav__link">
+                        <a class="nav__alura" target="_blank" href="https://www.alura.com.br/"> <img src="./assets/a.png" alt="Logo da empresa Alura" width="120px" height="48px"></a>    
+                    </li>
+                </ul>   
+            </nav>              
+
+    <main class="apresentacao">
+        <section>
+            <div class="container__titulo__principal">
+                <h1>Decodificador de Texto</h1>
+            <br><br>
+        </section>
+            <section>
+            <div class="container__subtitulo">
+                <h2 class="texto__input">Digite o texto que você deseja <spam>criptografar</spam> ou <spam>descriptografar.</spam></h2>
+            </section>
+             </div>
+        </section>
+        <br>
+        <section class="container__input__texto__1"></section>
+            <textarea class="input__texto__area__1" cols="85" rows="10" placeholder=" Digite seu texto"></textarea>
+        </section>
+        <br>
+        <section>
+            <div class="botoes">
+                <button class="butn" onclick="botaoEncriptar()">
+                    Criptar texto 
+                </button>
+                <button class="butn__copiar" onclick="copiar()">
+                    Copiar
+                </button>
+                <button class="butn" onclick="botaoDesencriptar()">
+                    Descriptografar texto
+                </button>
+            </div>
+        </section>
+        <br><br><br>
+        <section class="container__input__texto__2">
+            <textarea class="input__texto__area__2" placeholder=" Sua mensagem aparece aqui!" cols="85" rows="10"></textarea>
+            <br><br><br>
+        </section>
+        <br><br>
+    </main>
+     <footer class="rodape">
+    <nav class="rodape__icones">
+            <p>Desenvolvido por <span>Florista!</span> durante o programa <span>"ONE".</span></p>
+            <a href="https:/www.linkedin.com/in/rafael-ribeiro-desenvolvedor" target="_blank" ><img src="./assets/linkedin.png" width="50px" alt="icon do LinkedIn"></a>
+            <a href="https://github.com/Floweriste" target="_blank" ><img src="./assets/github.png" width="50px" alt="Icon do GitHub"></a>
+        </nav>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

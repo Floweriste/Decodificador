@@ -1,0 +1,1 @@
+Este é um projeto criado com os cursos da One na paltaforma da Alura, esse projeto foi criado dia 23/07/2024. Ele é de uso livre, aproveite :D

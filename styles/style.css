@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+ /* Fundo e fonte*/
+
+:root {
+
+--fonte-primaria: 'Inter', 'sans-serif';
+--fonte-secundaria: 'Montserrat', 'sans-serif';
+--fonte-terciaria: 'Sarla', 'sans-serif'
+}
+body{
+    background-color: #EEEDEB;
+    background-size: 290% 300%;
+}
+
+ /* Cabeçalho*/
+.cabecalho {
+    padding: 2%, 0% 0% 15%;
+}
+
+ .cabecalho__logo {
+    height: 100px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__titulo__principal{
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 32px;
+    color: #0A3871;
+}
+.input__texto__area__1 {
+    background-color: #758694;
+    border: none;
+    color: #E2E2B6;
+    width: 644px;
+    padding: 1rem;
+    border-radius: 1.4rem;
+    border: 1px solid;
+    font-size: 1rem;
+}
+
+textarea::placeholder {
+    color: #E2E2B6;
+    font-family: 'sarala', sans-serif;
+    font-size: 1rem;
+  }
+
+  .texto__atencao{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'sarala', sans-serif;
+    color: #758694;
+    font-size: 1.8rem;
+}
+
+.input__texto__area__2 {
+    background-color: #758694;
+    border: none;
+    color: #E2E2B6;
+    width: 644px;
+    padding: 1rem;
+    border-radius: 1.4rem;
+    border: 1px solid;
+    font-size: 1rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.butn__copiar{
+    background-color: #405D72;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #cfcfcf;
+    width: 100px;
+    height: 67px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    border: 1.4px solid;
+}
+.butn{
+    background-color: #405D72;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #cfcfcf;
+    gap: 8px;
+    width: 248px;
+    height: 67px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    border: 1.4px solid;
+}
+.texto__input{
+    font-family: 'sarala', sans-serif;
+    color: #0A3871;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.rodape{
+    height: 6vw;
+    border-top: 2px solid #D6BD98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #021526;
+}
+.rodape__icones {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+p{
+    font-family: 'Inter', cursive;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #cfcfcf
+}
+span{
+    color: #cfcfcf
+}
+
+@media(max-width:990px) {
+    .cabecalho__logo {
+        height: 80px;
+        padding-left: 1rem;
+    }
+
+    .links {
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav__alura{
+        width: 1000px;
+    }
+    .apresentacao{
+        font-size: 25px;
+        padding-top: 10px;
+
+    }
+    .input__texto__area__1 {
+        height: 140px;
+        width: 345px;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    textarea::placeholder {
+        font-size: 0.5rem;
+    }
+
+    .texto__atencao {
+        gap: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .input__texto__area__2{  
+        height: 140px;
+        width: 345px;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        gap: 9px;
+    }
+
+    .butn {
+        width: 139px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+    .butn-copiar{
+        width: 70px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+    .texto__input {
+        font-size: 0.8rem;
+    }
+
+
+    .rodape {
+        height: 155px;
+        border-top: 2px solid #073488;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    p {
+        display: block;
+        padding-left: 8px;
+        font-size: 11px;
+    }
+    
+    .rodape-icones {
+        display: flex;
+        margin-right: 37px;
+        padding-left: 22px;
+        gap: 1rem;
+    }
+    
+}
